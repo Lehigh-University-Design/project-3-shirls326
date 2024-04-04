@@ -1,0 +1,11 @@
+.homeContainer{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: url("/images/tileBeth.png") lightgray 0% 0% / 569.9999809265137px 569.9999809265137px repeat, #885F52;
+   
+}
