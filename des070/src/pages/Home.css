@@ -1,11 +1,20 @@
-.homeContainer{
-    background-color: red;
+.homeContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background: url("/images/tileBeth.png") lightgray 0% 0% / 569.9999809265137px 569.9999809265137px repeat, #885F52;
-   
+    /* background-color: #885F52;; */
+    /* background: url("./images/tileBeth.png") lightgray 0% 0% / 569.9999809265137px 569.9999809265137px repeat, #885F52; */
+    /* background: lightgray url("./images/tileBeth.png"); */
+    /* background: url("./images/tileBeth.png") 0% 0% / 50.9999809265137px 50.9999809265137px repeat, #885F52; */
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(3) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 24%, 51%, 1)'/><path d='M0 0h10v10H0z'  stroke-width='1' stroke='none' fill='hsla(318, 45%, 33%, 1)'/><path d='M10 10h10v10H10z'  stroke-width='1' stroke='none' fill='hsla(318, 45%, 33%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-shadow: 0px 6px 1.6px rgba(0, 0, 0, 0.50);
+
+
 }
