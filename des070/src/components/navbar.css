@@ -27,3 +27,41 @@
 .navBarLeft{
     width: 50%;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        margin: 0;
+        position: relative;
+        background-color: rgba(123,47,100,1);
+        color: #fff;
+        padding: 5px;
+        font-size: 0.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        box-shadow: 0 -8px 10px -6px black;
+        font-family: "Playfair Display SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        /* font-size: 1.5em; */
+      
+    }
+    
+    .navBarText{
+        width:40%;
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: flex-end;
+        margin-left: auto;
+       
+    }
+    .navBarLeft{
+        width: 50%;
+    }
+
+
+
+
+
+}
