@@ -82,16 +82,17 @@
         .aboutGrid{
             display:flex;
             flex-direction: column;
-            padding: 1em;
+            padding: 0.5em;
             
         
     
             .right{
-                height: 80vh;
+                height: 50vh;
                 display: flex;
                 flex-direction: column;
                 align-items: center; /* Align items horizontally to center */
                 justify-content: center; /* Align items vertically to center */
+          
                 
             }
     
@@ -109,8 +110,8 @@
             /* background-color: red; */
             background-image: url("./images/beth.jpeg");
             background-size: cover;
-            height: 70%;
-            width: 80%;
+            height: 90%;
+            width: 70%;
             /* margin: 0.5em; */
             align-items: center;
             background-position: center;
