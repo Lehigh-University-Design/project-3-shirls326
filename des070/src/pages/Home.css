@@ -33,7 +33,16 @@
        
     }
 
-
-
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 4rem;
+            word-wrap: break-word;
+            word-break: break-word;
+    
+            margin: 0;
+            padding: 0;
+            text-align: center;; /* Decrease font size for smaller screens */
+        }
+    }
 
 }
