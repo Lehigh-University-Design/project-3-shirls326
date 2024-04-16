@@ -1,0 +1,58 @@
+.aboutContainer{
+    min-height: 100vh;
+    background: rgb(59,7,31);
+    background: linear-gradient(0deg, rgba(59,7,31,1) 0%, rgba(123,47,100,1) 100%);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    color: white;
+    font-family: "Playfair Display SC", serif;
+    h2{
+        font-size: 3em;
+        margin:0;
+
+    }
+
+    h3{
+        font-size: 2.5em;
+        margin:0;
+    }
+
+    .aboutGrid{
+        display:grid;
+        grid-template-columns: 4fr 5fr;
+        padding: 1em;
+        /* align-content: center; */
+
+        .right{
+            height: 80vh;
+            display: flex;
+            /* flex-direction: column; */
+            align-content: center;
+            justify-content: center;
+        }
+
+        .left{
+            p{
+
+                font-size: 1.25em;
+                margin: 0;
+                padding: 1em;
+                font-family: "Reem Kufi Fun", sans-serif;
+            }
+        }
+    }
+    .imgBeth{
+        /* background-color: red; */
+        background-image: url("./images/beth.jpeg");
+        background-size: cover;
+        height: 90%;
+        width: 70%;
+        margin: 1em;
+        align-items: center;
+        background-position: center;
+        border-radius: 2em;
+        
+    }
+}
