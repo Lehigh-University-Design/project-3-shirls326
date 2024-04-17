@@ -1,6 +1,7 @@
 .navbar{
+    width: 100%;
     margin: 0;
-    position: relative;
+    /* position: fixed; */
     background-color: rgba(123,47,100,1);
     color: #fff;
     padding: 10px;
@@ -11,6 +12,7 @@
     font-family: "Playfair Display SC", serif;
     font-weight: 400;
     font-style: normal;
+    z-index: 999;
     /* font-size: 1.5em; */
   
 }
@@ -27,11 +29,17 @@
         color: white;
   
       }
+    a:hover{
+        color:rgb(209, 83, 171);
+        transition: 0.3s;
+    
+    }
    
 }
 .navBarLeft{
     width: 50%;
 }
+
 
 @media screen and (max-width: 768px) {
     .navbar{

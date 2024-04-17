@@ -14,7 +14,7 @@ export default function Games() {
                 <div className='StatsText'>
                     <p><b>Latest Achievement:</b> World Champion at 1968 Moscow Invitational Chess Tournament</p>
                     <hr></hr>
-                    <p><b>Most Notable Wins:</b> dmnakdnaa</p>
+                    <p><b>Most Notable Win:</b> Moscow Invitation Harmon vs Borgav</p>
                     <hr></hr>
                     <p><b>Current Rating:</b> ~2700</p>
 

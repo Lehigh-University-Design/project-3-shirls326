@@ -26,19 +26,23 @@
 }
 
 .Stats{
-    width: 75vw;
+    max-width: 75vw;
+    height:auto;
     /* padding: 10em; */
     display: flex;
     flex-direction: row;
     align-items: center;
     /* justify-content: center; */
     height: fit-content;    
-    background-color: #e7c9af;
+    background-color: #f1c6a0;
     position: relative;
     justify-content: space-around;
     padding: 5em;
     border-radius: 1em;
-    margin-top: 2em;;
+    margin-top: 2em;
+    word-wrap: break-word;
+    word-break: break-word;
+
 
     .bethHarmonPhotoGames{
         width: 40%;
@@ -55,4 +59,67 @@
 }
 .GamesAndTimeline{
     align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .gamesContainer{
+        margin:0;
+        padding:0;
+    
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            font-size: 1.5em;
+            margin:0;
+            padding:0;
+        
+        }
+        h1{
+            font-size: 5rem;
+            word-wrap: break-word;
+            word-break: break-word;
+    
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            text-shadow: 0px 6px 1.6px rgba(0, 0, 0, 0.50);
+           
+        }
+    
+    }
+    
+    .Stats{
+        max-width: 55vw;
+        /* padding: 10em; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        height: fit-content;    
+        background-color: #e7c9af;
+        position: relative;
+        justify-content: space-around;
+        padding: 5em;
+        border-radius: 1em;
+        margin-top: 2em;;
+    
+        .bethHarmonPhotoGames{
+            width: 60%;
+            border-radius: 3em;
+        }
+        .StatsText{
+            color:black;
+            p{
+                font-size:2.0rem;
+            }
+            
+            padding: 2rem;
+        }
+    }
+    .GamesAndTimeline{
+        align-content: center;
+    }
+ 
+    
 }

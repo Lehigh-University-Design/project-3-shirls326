@@ -11,7 +11,7 @@ export default function navbar() {
         <div className='navBarText'>
             <h2 className='navlink'><a href='/#about'>About</a></h2>
             <h2 className='navlink'><a href='/gamesTimeline#games'>Games</a></h2>
-            <h2 className='navlink'><a href='/timeline'>Timeline</a></h2>
+            <h2 className='navlink'><a href='/gamesTimeline#timeline'>Timeline</a></h2>
         </div>
     </div>
   )
