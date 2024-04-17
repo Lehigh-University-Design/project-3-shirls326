@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'dist', // specify the output directory
   },
-  base: '/'
+  base: 'project-3-shirls326'
 })
