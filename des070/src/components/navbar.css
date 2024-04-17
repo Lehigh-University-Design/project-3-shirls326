@@ -22,6 +22,11 @@
     justify-content: space-around;
     align-content: flex-end;
     margin-left: auto;
+    a {
+        text-decoration: none;
+        color: white;
+  
+      }
    
 }
 .navBarLeft{

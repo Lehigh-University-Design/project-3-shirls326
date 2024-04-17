@@ -1,6 +1,7 @@
 import React from 'react'
 import './Games.css'
 import NavBar from '../components/navbar.jsx'
+import beth from './images/bethHarmon2.jpeg'
 
 export default function Games() {
   return (
@@ -9,18 +10,16 @@ export default function Games() {
         <div id='games' className='gamesContainer'>
             <h1>Highlights</h1>
             <div className='Stats'>
-                <div></div>
+                <img src={beth} alt="Beth Harmon Photo" className='bethHarmonPhotoGames'/>
                 <div className='StatsText'>
-                    <p><b>Latest Achievement:</b> dmnakdnaa</p>
+                    <p><b>Latest Achievement:</b> World Champion at 1968 Moscow Invitational Chess Tournament</p>
                     <hr></hr>
                     <p><b>Most Notable Wins:</b> dmnakdnaa</p>
                     <hr></hr>
-                    <p><b>Current:</b> dmnakdnaa</p>
+                    <p><b>Current Rating:</b> ~2700</p>
 
                 </div>
             </div>
-            <p>1983 - Beth Harmon is born</p>
-            <p>1984 - Beth's mother dies in a car crash</p>
         </div>
     
     </>
