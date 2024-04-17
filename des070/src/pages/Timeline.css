@@ -1,0 +1,45 @@
+.timelineContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.timeLineItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* padding: 20px; */
+  /* border-bottom: 1px solid #e0e0e0; */
+}
+
+/* long vertical line */
+.timelineLine {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    height: 100%;
+    width: 10px;
+    background-color: gray;
+    z-index: 1000;
+}
+
+.leftGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.rightGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}

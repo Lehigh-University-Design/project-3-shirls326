@@ -9,9 +9,9 @@ export default function navbar() {
 
         </div>
         <div className='navBarText'>
-            <h2 className='navlink'> About</h2>
-            <h2 className='navlink'><a href='#News'>Games</a></h2>
-            <h2 className='navlink'><a href='#Music'>Timeline</a></h2>
+            <h2 className='navlink'><a href='/#about'>About</a></h2>
+            <h2 className='navlink'><a href='/gamesTimeline#games'>Games</a></h2>
+            <h2 className='navlink'><a href='/timeline'>Timeline</a></h2>
         </div>
     </div>
   )

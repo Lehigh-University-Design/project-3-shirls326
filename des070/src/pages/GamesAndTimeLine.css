@@ -1,0 +1,8 @@
+.gamestimelinecontainer{
+    background-image: radial-gradient(#f76e6e 2.5px, transparent 2.5px), radial-gradient(#f76e6e 2.5px, transparent 2.5px);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+    background-color: #7b2f64;
+    background-attachment: fixed;
+    background-position: center;
+}
