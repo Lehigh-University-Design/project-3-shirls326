@@ -44,6 +44,15 @@ export default function Timeline() {
 
             <div className='timeLineItem'>
                 <div className='leftGrid'>
+                    <iframe
+                    width="100%"
+                    height="400"
+                    src="https://lichess.org/study/embed/dffUtue4/eOmWj3KU"
+                    title="Chess Study"
+                    allowFullScreen
+                    />
+                </div>
+                <div className='rightGrid'>
                     <h3> US CHAMPIONSHIP (1963)</h3>
                     <p>
                         In the high-stakes atmosphere of the Cincinnati tournament, viewers are treated to a front-row seat in Beth Harmon's gripping match against the formidable Benny. Taking the white pieces, Beth meticulously visualizes various opening lines, her mind a whirlwind of strategic possibilities. The miniseries expertly showcases a diverse array of openings, from the dynamic Sicilian Scheveningen to the classic Ruy Lopez, as Beth contemplates her first move.
@@ -52,15 +61,6 @@ export default function Timeline() {
 
                         The game between Beth and Benny epitomizes the unforgiving nature of competitive chess, where one misstep can lead to defeat. Yet, it also underscores the depth of Beth's journey, showcasing her resilience in the face of adversity and setting the stage for even greater triumphs to come.
                     </p>
-                </div>
-                <div className='rightGrid'>
-                    <iframe
-                    width="100%"
-                    height="400"
-                    src="https://lichess.org/study/embed/dffUtue4/eOmWj3KU"
-                    title="Chess Study"
-                    allowFullScreen
-                    />               
                 </div>
             </div>
             <div className='timeLineItem'>
@@ -94,6 +94,15 @@ export default function Timeline() {
 
             <div className='timeLineItem'>
                 <div className='leftGrid'>
+                    <iframe
+                    width="100%"
+                    height="400"
+                    src="https://lichess.org/study/embed/gv3Sl7oz/6p1wah98"
+                    title="Chess Study"
+                    allowFullScreen
+                    />
+                </div>
+                <div className='rightGrid'>
                     <h3>MOSCOW INVITATIONAL (1968)</h3>
                     <p>
                         In the electrifying climax of the Moscow invitational, audiences are drawn into the highly anticipated rematch between Beth Harmon and the formidable Borgov. With the white pieces at her command, Beth strategically initiates the game with the timeless Queen's Gambit, a bold opening move signaling her intent to dominate the board and assert her prowess.
@@ -104,16 +113,6 @@ export default function Timeline() {
 
                         As the tension reaches its zenith and the pieces dance across the board in a mesmerizing display of strategy and skill, the outcome of the match hangs in the balance. Each move is a testament to Beth's resilience, determination, and unwavering commitment to her craft. In the end, her triumph is not just a victory on the chessboard, but a triumph of the human spirit—a testament to the power of perseverance, passion, and the unyielding pursuit of excellence.
                     </p>
-                   
-                </div>
-                <div className='rightGrid'>
-                    <iframe
-                    width="100%"
-                    height="400"
-                    src="https://lichess.org/study/embed/gv3Sl7oz/6p1wah98"
-                    title="Chess Study"
-                    allowFullScreen
-                    />               
                 </div>
             </div>
             
